@@ -92,7 +92,7 @@ while True:
                     index = index + 1
                     distance = distance + findEuclideanDistance(face_representation, representation)
 
-                #find average representation value of each gender
+                #find average representation value of each person
                 if index > 0:
                     average = distance / index
 
